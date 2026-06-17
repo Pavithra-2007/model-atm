@@ -12,7 +12,7 @@ const app = express();
 
 app.use(cors({
   origin: [
-    "https://model-q7kleijb2-pavithra-m-projects9.vercel.app"
+    "https://model-7rkrvygmy-pavithra-m-projects9.vercel.app",
   ],
   credentials: true
 }));
