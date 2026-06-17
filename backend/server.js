@@ -24,5 +24,7 @@ app.use((err, req, res, next) => {
     message: err.message,
   });
 });
-
+app.listen(process.env.PORT || 5000, () => {
+  console.log("Server running");
+});
 module.exports = app;
